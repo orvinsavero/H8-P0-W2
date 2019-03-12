@@ -16,8 +16,9 @@ var hasilPerkalian = calculateMultiply(num1,num2);
 console.log(hasilPerkalian);
 
 
+// Tugas 3
 function processSentence(){
-    console.log('Nama saya ' + name + ', ' + 'umur saya ' + age + ', alamat saya di' + address + ', dan saya punya hobby yaitu ' + hobby + "!");
+    return 'Nama saya ' + name + ', ' + 'umur saya ' + age + ', alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby + "!";
 }
 
 var name = "Agus";
