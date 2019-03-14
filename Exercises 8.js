@@ -57,17 +57,18 @@ function pasanganTerbesar(num) {
         zz++
     }
 
-    var f = e[0]
+    var f = e[0];
     var count = 0;
-    var result ='';
+    var result =0;
     while(count < l){
-        if (str[count] == f){
+        if (f == str[count]){
             result = f + str[count+1];
+            break;
         }
         count++;
     }
-
-return result;
+    result = Number(result);
+    return result;
   }
 
   
