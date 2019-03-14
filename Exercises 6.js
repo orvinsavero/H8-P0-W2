@@ -1,15 +1,17 @@
 function angkaPalindrome(num) {
     // you can only write your code here!
     num++;
-    n = num.toString();
+    var n = num.toString();
     var i = 0;
     var output ='';
-    while(n[i] != n[n.length-1]){
-        output = parseInt(n);
+    while(n[i] != n[n.length-1]){ // reverse > if > reverse = n
+        output = Number(n);
         output++
         n = output.toString();
+        
     }
-  return n;
+    var a = Number(n);
+  return a;
 }
   // TEST CASES
   console.log(angkaPalindrome(8)); // 9

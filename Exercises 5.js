@@ -4,7 +4,7 @@ function palindrome(kata) {
     var output = '';
     while(i >= 0){
         output += kata[i];
-        i--
+        i--;
     }
     return output === kata;
   }
