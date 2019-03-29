@@ -10,7 +10,7 @@ function targetTerdekat(arr) {
             result = i;
         }
         else if (arr[i] == 'o'){
-            count = count + i; 
+            count = i; 
         }
         else if (arr[i] === 'x' && result == 0){
             result = i;

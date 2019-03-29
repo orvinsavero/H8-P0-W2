@@ -1,7 +1,7 @@
 function balikString(input){
     var i = input.length-1;
     var output = '';
-    while(i >= 1){
+    while(i >= 0){
         output += input[i];
         
         i--;
